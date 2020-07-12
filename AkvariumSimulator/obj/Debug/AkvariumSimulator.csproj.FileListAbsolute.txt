@@ -1,0 +1,6 @@
+C:\Users\Вячеслав\RiderProjects\AkvariumSimulator\AkvariumSimulator\obj\Debug\AkvariumSimulator.csprojAssemblyReference.cache
+C:\Users\Вячеслав\RiderProjects\AkvariumSimulator\AkvariumSimulator\obj\Debug\AkvariumSimulator.csproj.CoreCompileInputs.cache
+C:\Users\Вячеслав\RiderProjects\AkvariumSimulator\AkvariumSimulator\bin\Debug\AkvariumSimulator.exe
+C:\Users\Вячеслав\RiderProjects\AkvariumSimulator\AkvariumSimulator\bin\Debug\AkvariumSimulator.pdb
+C:\Users\Вячеслав\RiderProjects\AkvariumSimulator\AkvariumSimulator\obj\Debug\AkvariumSimulator.exe
+C:\Users\Вячеслав\RiderProjects\AkvariumSimulator\AkvariumSimulator\obj\Debug\AkvariumSimulator.pdb
