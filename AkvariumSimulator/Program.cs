@@ -7,12 +7,12 @@ namespace AkvariumSimulator
     {
         public static void Main(string[] args)
         {
-            Piranya piranya = new Piranya("человечинку", " Nemo");
+            Piranya piranya = new Piranya("человечинку", "Polly");
             piranya.ImPredator();
             piranya.FishSwim();
             Console.WriteLine();
             
-            Shyka shyka = new Shyka("рыбу", "Острый клык");
+            Shyka shyka = new Shyka("рыбу", "Molly");
             shyka.ImPredator();
             shyka.FishSwim();
             Console.WriteLine();
@@ -45,7 +45,10 @@ namespace AkvariumSimulator
             typeOfFoodForFish.OutPutTypeOfFood(tuna);
             typeOfFoodForFish.OutPutTypeOfFood(losos);
             typeOfFoodForFish.OutPutTypeOfFood(karas);
-
+            
+            
+            shyka.PrintInfo();
+            piranya.PrintInfo();
          }
     }
 }
