@@ -4,6 +4,6 @@
     {
         string Name { get; set; }
         string Foodtype { get; set; }
-        void PrintInfo();
+        
     }
 }

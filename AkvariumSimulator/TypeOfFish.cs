@@ -8,5 +8,6 @@ namespace AkvariumSimulator
         {
             akvarium.GetTypeOfFish();
         }
+        
     }
 }

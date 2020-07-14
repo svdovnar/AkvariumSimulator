@@ -3,7 +3,7 @@ using System.Runtime.InteropServices;
 
 namespace AkvariumSimulator
 {
-    public class Tuna: Akvarium
+    public class Tuna: Akvarium, IIsHerbivore
     {
         public int _foodtime;
         public string _name;
@@ -31,5 +31,8 @@ namespace AkvariumSimulator
         {
             Console.WriteLine("Травоядное");
         }
+
+        public string Name { get; set; }
+        public int FoodTime { get; set; }
     }
 }

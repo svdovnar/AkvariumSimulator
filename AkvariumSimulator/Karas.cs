@@ -2,7 +2,7 @@
 
 namespace AkvariumSimulator
 {
-    public class Karas: Akvarium
+    public class Karas: Akvarium, IIsHerbivore
     {
         public int _foodtime;
         public string _name;
@@ -29,5 +29,8 @@ namespace AkvariumSimulator
         {
             Console.WriteLine("Травоядное");
         }
+
+        public string Name { get; set; }
+        public int FoodTime { get; set; }
     }
 }

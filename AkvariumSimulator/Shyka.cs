@@ -31,16 +31,11 @@ namespace AkvariumSimulator
 
         public override void GetTypeOfFish()
         {
-            Console.WriteLine("Хищник");
+            Console.WriteLine("Predator");
         }
 
         public string Name { get; set; }
         public string Foodtype { get; set; }
-        public void PrintInfo()
-        {
-            string Name = "Boobby";
-            string Foodtype = "Fish and chips";
-            Console.WriteLine(Name, Foodtype);
-        }
+        
     }
 }

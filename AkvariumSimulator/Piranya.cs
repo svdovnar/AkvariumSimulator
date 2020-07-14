@@ -35,12 +35,8 @@ namespace AkvariumSimulator
 
         public string Name { get; set; }
         public string Foodtype { get; set; }
-        public void PrintInfo()
-        {
-            string Name = "Xyyamba";
-            Console.WriteLine(Name);
-            
-        }
+
+        
 
     }
 

@@ -12,6 +12,7 @@ namespace AkvariumSimulator
             piranya.FishSwim();
             Console.WriteLine();
             
+            
             Shyka shyka = new Shyka("рыбу", "Molly");
             shyka.ImPredator();
             shyka.FishSwim();
@@ -30,25 +31,25 @@ namespace AkvariumSimulator
             Karas karas= new Karas(5, "Killy");
             karas.ImHerbivore();
             karas.FishSwim();
+            Console.WriteLine();
             
-            TypeOfFish typeOfFish = new TypeOfFish();
+            //походу нахер не надо...
+            /*TypeOfFish typeOfFish = new TypeOfFish();
             typeOfFish.OutPutTypeOfFish(piranya);
             typeOfFish.OutPutTypeOfFish(shyka);
             typeOfFish.OutPutTypeOfFish(tuna);
             typeOfFish.OutPutTypeOfFish(losos);
             typeOfFish.OutPutTypeOfFish(karas);
-            
-            Console.WriteLine();
+            //походу нахер не надо...
+
             TypeOfFoodForFish typeOfFoodForFish =new TypeOfFoodForFish();
             typeOfFoodForFish.OutPutTypeOfFood(piranya);
             typeOfFoodForFish.OutPutTypeOfFood(shyka);
             typeOfFoodForFish.OutPutTypeOfFood(tuna);
             typeOfFoodForFish.OutPutTypeOfFood(losos);
-            typeOfFoodForFish.OutPutTypeOfFood(karas);
-            
-            
-            shyka.PrintInfo();
-            piranya.PrintInfo();
-         }
+            typeOfFoodForFish.OutPutTypeOfFood(karas);*/
+
+
+        }
     }
 }
