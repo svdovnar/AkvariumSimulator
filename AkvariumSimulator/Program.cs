@@ -10,46 +10,36 @@ namespace AkvariumSimulator
             Piranya piranya = new Piranya("человечинку", "Polly");
             piranya.ImPredator();
             piranya.FishSwim();
+            piranya.GetTypeOfFish();
+            piranya.GetTypeOfFood();
             Console.WriteLine();
-            
-            
+
             Shyka shyka = new Shyka("рыбу", "Molly");
             shyka.ImPredator();
             shyka.FishSwim();
+            shyka.GetTypeOfFish();
+            shyka.GetTypeOfFood();
             Console.WriteLine();
-            
-            Tuna tuna = new Tuna(foodtime:3,"Willy");
+
+            Tuna tuna = new Tuna(foodtime: 3, "Willy");
             tuna.ImHerbivore();
             tuna.FishSwim();
+            tuna.GetTypeOfFish();
+            tuna.GetTypeOfFood();
             Console.WriteLine();
-            
-            Losos losos= new Losos(4,"Dilly");
+
+            Losos losos = new Losos(4, "Dilly");
             losos.ImHerbivore();
             losos.FishSwim();
+            losos.GetTypeOfFish();
+            losos.GetTypeOfFood();
             Console.WriteLine();
-            
-            Karas karas= new Karas(5, "Killy");
+
+            Karas karas = new Karas(5, "Killy");
             karas.ImHerbivore();
             karas.FishSwim();
-            Console.WriteLine();
-            
-            //походу нахер не надо...
-            /*TypeOfFish typeOfFish = new TypeOfFish();
-            typeOfFish.OutPutTypeOfFish(piranya);
-            typeOfFish.OutPutTypeOfFish(shyka);
-            typeOfFish.OutPutTypeOfFish(tuna);
-            typeOfFish.OutPutTypeOfFish(losos);
-            typeOfFish.OutPutTypeOfFish(karas);
-            //походу нахер не надо...
-
-            TypeOfFoodForFish typeOfFoodForFish =new TypeOfFoodForFish();
-            typeOfFoodForFish.OutPutTypeOfFood(piranya);
-            typeOfFoodForFish.OutPutTypeOfFood(shyka);
-            typeOfFoodForFish.OutPutTypeOfFood(tuna);
-            typeOfFoodForFish.OutPutTypeOfFood(losos);
-            typeOfFoodForFish.OutPutTypeOfFood(karas);*/
-
-
+            karas.GetTypeOfFish();
+            karas.GetTypeOfFood();
         }
     }
 }

@@ -2,7 +2,7 @@
 
 namespace AkvariumSimulator
 {
-    public class Losos: Akvarium, IIsHerbivore
+    public class Losos: Akvarium
     {
         public int _foodtime;
         public string _name;
@@ -15,7 +15,7 @@ namespace AkvariumSimulator
         public void ImHerbivore()
         {
             Console.WriteLine("Меня зовут: " + _name);
-            Console.WriteLine("Я ем:" + _foodtime + " раз в день");
+            Console.WriteLine("Я травоядный и ем: " + _foodtime + " раз в день");
         }
         public void FishSwim()
         {
@@ -30,7 +30,5 @@ namespace AkvariumSimulator
             Console.WriteLine("Травоядное");
         }
 
-        public string Name { get; set; }
-        public int FoodTime { get; set; }
     }
 }

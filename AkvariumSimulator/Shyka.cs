@@ -7,8 +7,7 @@ namespace AkvariumSimulator
     {
         public string _foodtype;
         public string _name;
-        private IIsPredator _isPredatorImplementation;
-
+        
         public Shyka(string foodtype, string name)
         {
             _foodtype = foodtype;
@@ -18,7 +17,7 @@ namespace AkvariumSimulator
         public void ImPredator()
         {
             Console.WriteLine("Меня зовут: " + _name);
-            Console.WriteLine("Я ем:" + _foodtype);
+            Console.WriteLine("Я хищник и я ем: " + _foodtype);
         }
         public void FishSwim()
         {
@@ -34,8 +33,6 @@ namespace AkvariumSimulator
             Console.WriteLine("Predator");
         }
 
-        public string Name { get; set; }
-        public string Foodtype { get; set; }
         
     }
 }
